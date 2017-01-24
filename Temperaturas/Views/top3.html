@@ -1,0 +1,13 @@
+﻿
+<md-card ng-show="cidades">
+
+    <div layout="column" ng-repeat="cidade in cidades">
+        <div layout-padding layout="row">
+            <span>{{cidade.Nome}}</span>
+            <span>&nbsp;</span>
+        </div>
+    </div>
+    <span flex="5"></span>
+</md-card>
+
+<span ng-show="erro">erro  :(</span>

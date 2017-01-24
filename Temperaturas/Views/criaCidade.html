@@ -1,0 +1,14 @@
+﻿<div layout-padding layout="column">
+
+    <md-input-container>
+        <label>Nome da Cidade a ser criada</label>
+        <input ng-model="cidadeSelecionada">
+    </md-input-container>
+
+    <md-button class="md-raised md-primary" ng-click="criaCidade()">cria cidade</md-button>
+
+    <span flex="5"></span>
+
+    <span ng-show="criou">cidade criada com sucesso!  :)</span>
+    <span ng-show="erro">erro  :(</span>
+</div>

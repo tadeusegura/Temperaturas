@@ -1,0 +1,52 @@
+﻿<!DOCTYPE html>
+<html ng-app="temperaturasApp" ng-cloak>
+<head>
+    <base href='/' />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no" />
+    <title>Temperaturas</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/angular-material/1.1.1/angular-material.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body ng-controller="TemperaturasCtrl" ng-cloak>
+    <header md-whiteframe="4" layout="row" ng-cloak></header>
+
+    <main layout="row" flex ng-cloak>
+        <div layout="column">
+            <md-button class="md-primary md-raised" ng-click="visualizaCidade()">Visualiza Cidade</md-button>
+            <md-button class="md-primary md-raised" ng-click="criaCidade()">Cria Cidade</md-button>
+            <md-button class="md-primary md-raised" ng-click="deletaCidade()">Deleta Cidade</md-button>
+            <md-button class="md-primary md-raised" ng-click="limpaCidade()">Limpa Cidade</md-button>
+            <md-button class="md-primary md-raised" ng-click="topCidade()">Top 3</md-button>
+            <span flex="10"></span>
+            <md-button class="md-warn md-raised" ng-click="iniciaColetor()" ng-disabled="servicoLigado">Inicia serviço</md-button>
+            <span ng-show="servicoligado" >Serviço ligado</span>
+
+
+        </div>
+        <span flex="10"></span>
+        <div ng-view></div>
+
+    </main>
+
+    <!--Homologação-->
+    <script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-animate.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-aria.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-route.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.1.1/angular-material.js" type="text/javascript"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular-messages.js" type="text/javascript"></script>
+    <script src="Scripts/temperaturas.js" type="text/javascript"></script>
+    <script src="Scripts/temperaturasRotas.js" type="text/javascript"></script>
+    <script src="Scripts/temperaturasServicos.js" type="text/javascript"></script>
+    <script src="Scripts/home.js"></script>
+    <script src="Scripts/visualizaCidadeCtrl.js"></script>
+    <script src="Scripts/criaCidadeCtrl.js"></script>
+    <script src="Scripts/deletaCidadeCtrl.js"></script>
+    <script src="Scripts/limpaCidadeCtrl.js"></script>
+    <script src="Scripts/top3Ctrl.js"></script>
+</body>
+</html>

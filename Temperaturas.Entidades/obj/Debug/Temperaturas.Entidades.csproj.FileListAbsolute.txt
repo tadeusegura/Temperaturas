@@ -1,0 +1,10 @@
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\bin\Debug\Temperaturas.Entidades.dll.config
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\bin\Debug\Temperaturas.Entidades.dll
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\bin\Debug\Temperaturas.Entidades.pdb
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\bin\Debug\EntityFramework.dll
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\bin\Debug\EntityFramework.xml
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\obj\Debug\Temperaturas.Entidades.csprojResolveAssemblyReference.cache
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\obj\Debug\Temperaturas.Entidades.dll
+C:\Users\Tadeu\Documents\Visual Studio 2015\Projects\Temperaturas\Temperaturas\Temperaturas.Entidades\obj\Debug\Temperaturas.Entidades.pdb

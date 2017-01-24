@@ -1,0 +1,14 @@
+﻿<div layout-padding layout="column">
+
+    <md-input-container>
+        <label>Nome da Cidade a ser deletada</label>
+        <input ng-model="cidadeSelecionada">
+    </md-input-container>
+
+    <md-button class="md-raised md-primary" ng-click="deletaCidade()">deleta cidade</md-button>
+
+    <span flex="5"></span>
+
+    <span ng-show="deletou">cidade deletada com sucesso!  :)</span>
+    <span ng-show="erro">erro  :(</span>
+</div>

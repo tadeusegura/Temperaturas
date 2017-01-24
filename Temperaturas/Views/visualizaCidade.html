@@ -1,0 +1,29 @@
+﻿<div layout-padding layout="column">
+
+    <md-input-container>
+        <label>Nome da Cidade</label>
+        <md-select name="Nome da Cidade" ng-model="cidadeSelecionada" required>
+            <md-option ng-repeat="cidade in cidades track by cidade.Id" ng-value="cidade">
+                {{cidade.Nome}}
+            </md-option>
+        </md-select>
+    </md-input-container>
+
+    <span flex="5"></span>
+
+    <md-card ng-show="cidadeSelecionada.Nome != null">
+        <span>Cidade sendo visualizada: {{cidadeSelecionada.Nome}}</span>
+        <span flex="5"></span>
+        <div layout="column" ng-repeat="temperatura in cidadeSelecionada.Temperaturas">
+            <div layout-padding layout="row">
+                <span>{{temperatura.Data}}</span>
+                <span>&nbsp;</span>
+                <span>{{temperatura.Valor}}</span>
+            </div>
+        </div>
+        <span flex="5"></span>
+        <span ng-show='cidadeSelecionada.Temperaturas.length == 0'>Nenhuma data. Essa cidade existe?  :/</span>
+    </md-card>
+
+    <span ng-show="erro">erro  :(</span>
+</div>
